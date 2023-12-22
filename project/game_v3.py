@@ -53,4 +53,7 @@ def score_game(random_predict) -> int:
 #Run benchmarking to score effectiveness of all algorithms
 
 print('Run benchmarking for game_core_v2: ', end='')
-score_game(game_core_v2)
+
+#RUN
+if __name__ == '__main__':
+    score_game(game_core_v2)
